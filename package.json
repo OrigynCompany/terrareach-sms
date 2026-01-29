@@ -1,0 +1,40 @@
+{
+  "name": "@origyns/terrareach-sms",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "Origyn",
+  "license": "ISC",
+  "description": "SMS client for TerraReach API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/origyns/terrareach-sms.git"
+  },
+  "dependencies": {
+    "axios": "^1.13.4",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "rimraf": "^6.1.2",
+    "typescript": "^5.9.3"
+  }
+}
