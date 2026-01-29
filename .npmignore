@@ -1,0 +1,6 @@
+# .npmignore
+src/
+tsconfig.json
+.gitignore
+.env
+tests/
