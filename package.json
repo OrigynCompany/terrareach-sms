@@ -26,7 +26,7 @@
   "description": "SMS client for TerraReach API",
   "repository": {
     "type": "git",
-    "url": "https://github.com/origyns/terrareach-sms.git"
+    "url": "https://github.com/OrigynCompany/terrareach-sms.git"
   },
   "dependencies": {
     "axios": "^1.13.4",
